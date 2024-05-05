@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind insygysf</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body >
+
+<div class="w-full h-screen overflow-x-hidden ">
+      <div class="w-full  overflow-x-hidden overflow-y-hidden  bg-deepBlue box-border flex flex-row justify-center align-middle">
+     <div class=" bg-deepBlue box-border text-white gap-3 flex justify-center flex-row h-11 items-center w-8/12 mt-2"> 
+         <div class="space-x-3 ">
+            <a href="#">
+                <img src="https://d6xcmfyh68wv8.cloudfront.net/newsroom-content/uploads/2021/02/white.png"
+                width="125px" height="30px">
+            </a>
+        </div> 
+
+        <div class=" flex flex-col cursor-pointer  h-full box-border relative group ">
+            <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Payments</div>  
+             <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+             group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+         </div>
+
+         <div class=" flex flex-col cursor-pointer  h-full box-border relative group ">
+            <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Banking</div>  
+             <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+             group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+         </div>
+
+         <div class=" flex flex-col cursor-pointer  h-full box-border relative group ">
+            <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Corporate Card</div>  
+             <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+             group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+         </div>
+
+         <div class=" flex flex-col cursor-pointer  h-full box-border relative group ">
+            <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Payroll</div>  
+             <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+             group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+         </div>
+
+         <div class=" flex flex-col cursor-pointer  h-full box-border relative group ">
+            <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Resources</div>  
+             <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+             group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+         </div>
+          
+         <div class=" flex flex-col cursor-pointer  h-full box-border relative group ">
+            <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Support</div>  
+             <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+             group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+         </div> 
+
+             <div class=" flex flex-col cursor-pointer  h-full box-border relative group  ">
+                <div class=" w-full h-full pt-2 text-0.8 group-hover:text-lightBlue font-mullish">Pricing</div>  
+                 <div class="w-full absolute   bg-blue-700 h-1 box-border bottom-0 self-end mt-auto opacity-0 
+                 group-hover:opacity-100 ease-in-out duration-300 rounded-sm"></div>
+             </div>
+            
+     <div class="flex flex-row gap-2 items-center">
+                <div class="space-x-3 ">
+                   <a href="#">
+                       <img src="https://img.icons8.com/?size=96&id=32584&format=png"
+                       width="18px" height="5px">
+                   </a>
+               </div>
+             
+            <div>
+               <div  class ="border cursor-pointer  border-lightBlue  px-1.5 pt-1 pb-1.5 text-xs font-bold rounded-sm">
+                    Login
+               </div>
+            </div>
+
+            <div>
+                <div  class ="border-1 gap-1 cursor-pointer px-1.5 pt-1 pb-1.5 text-xs font-bold bg-white text-blue-500 flex flex-row rounded-sm">
+                    <div class="text-xs font-medium hover:text-blue-700 transition-all duration-200 "> Sign Up </div>
+                     <div class="text-blue-600 w-3 h-3 flex align-bottom pt-1.5 "><img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAACUCAMAAADF0xngAAAAqFBMVEX///9EefosPY4hNYsrOYdBd/r09PhZhvtpcqcQKofLzd6SmL3x9P83WL8BJIU/buQ3TJ+yttAnOYzc3uk3cvoxb/qGpPz6+/8AIIQvRZwxS6bEx9saMIkAAH7p6vEwQZBKVpo9S5VYY6DU1uS8v9bp7v6prst8nfuip8cAGoIAFIGBiLNye616gbDf5v23yP3N2f2dp9KftvxNf/qMoeUjP6AAC388ZdVHqHtbAAAEgElEQVR4nO2cbXuTMBSGaaBYQKsLq+3aSEvB2a3Ot6n7//9MljdeklD0MnAuzf2p64ft3nmacxIG8zyHw+FwOBwOh8Pxv1Oczh8fknhqjV7iw5L4FUtytZ7axcQ62fiIgTcfs6l19KzPEaoheTi1kJZkg5r4e4jVzNqSleYBoOaZcDmfYP4KgQs9zKkbRg+nJOeLyM/TqbU6xHu2uE/V68L3gYZeMskD/SKV1USwNK+oFz6yr2rNA6jQ25ZeQaQmpCXUsWxUE1LflJafPn+hb6R7gKELyy+P1/O39J0Cy4YEJnRmifLH+Wy2ekt3ROlBhg6lmtzyTSU5m12zaqYEWt8UljPKiocuP5sYRuhtSxk6sGHZsVRCJyBC71qK0GENS8VSDX1w3wxjWySK5ez6A/2ZcliSfEA118WZ3C1twffATcvZ6kOnb14OPX2IIoxs07KUS2jwsIxzYl1RsRSacliSfW/fvFrar6PG8veGZTFC2M/grqVmWBo1Q/GrIOxbZfN13tUUwzK/OCwTcQolx4VVrl6uupaDh2XGSxkdd1lok7X3XrUcukPa3THJB/MH92+hs1SHJdZpssBxbl9Sbzks9CNd4MvbySzFsKxD1wxLdtmBFCNYftNbqsPSV6rJmxC1fGmT95+v9ZJDhqW0XH97YZe50i67oRfIdE7nlumnx9XcKkZFbego1Vii9IUxj1G4MCzZm/n3aSWfq8k0ZUMimWK5fz2xpGaH1OybPPHpLXv7JhxLNXQ/A2jZMywhWSqhy5MlKEvjsIRlaRqWwCxl6FJzvwZoqfRNsoBoKULPZN8sIVp2+6a/CCFa1n2TXShYFiAt5RK6Z5YnmJYidHaHgr8AalktoefQY2pZHXCBWrLQC34FC6wlHZaslghuLWnfPLHP5RGwZaXJWlGUQLac/Qio2yaGbLkN+LYoA2x5E/DtxgnkHGfwSlZrJ4RrKSTxzwLkzo0i4sZ+DHGvzhCVRGQH8dzDqOMuIZ4hGXXcO4jncYas5EZIArSUkssS4nUixlaJG6ClXN3vGpLQLOXCIaUH1lIbNzRLKfmuLQnKUu2Tgj0cS1lJ0pX0DnTTHjxNrdiQvC+7kuJW8pupHeu4sVJJzyvZbfnBq4klNWOxQYoxBM0bzVjURI6CYPvKKn0LdNsX9zOFvE8nsMwAyZ/GJ6luuw+MWCLYXoxbbUGNzKP+b/+3UO566lZSaeYtkrtR7s4yWNZj8cKDc2UuLrWPb9nbJ9tkt8flJrKF7v5LpZJ9n0lJmJaJLRbYaFmPxSGSVlHvC1bjnv5hTqNl/1gEYikrGQGQNFluAcXtmSwH98mR0Fqajw8TobO8uAsaHY2l8bQ4HaolpD4pUCx/byyORNdSSt4BkuxayrgRnLgrytZuox6LoCS9Hd9gPsEbiw0yfgMGenr9VMcNTNLzjvwkECBxDRXKWGwS36M2/I9NwFi0j6mQmnmD7NB8GgvQWGyTHetnnUg+xpMGf0SYYPo/VnC0OYN44NVAdZrGETkkYAvpcDgcDofD4XA4/k1+AdHHna7ogcdEAAAAAElFTkSuQmCC"width="12px"> </div>
+                </div>
+             </div>
+  </div>          
+          
+        </div>
+    </div>
+
+
+
+    <!--   -------------hero section---------------------------->
+<div class="bg-deepBlue w-full h-3.5/6 flex flex-row justify-center ">
+             <div class="w-8/12  flex flex-row relative gap-4">
+                            <div class=" w-2/5 mt-16 flex flex-col gap-4">
+                                      <h1 class="capitalize leading-[1.3] text-white font-mullish font-bold text-[33px] ">
+                                         Power your Finace , Grow your Business
+                                      </h1>
+                                        <div class="bg-greenLight h-1 w-6">
+                                       </div>
+                               
+                                    <p class="text-white text-justify text-[15px] "> 
+                                        Accept payment form customer. Automate
+                                         payout to vendors & employees. Never run 
+                                         out of working capita.Accept payment form customer. Automate
+                                         payout to vendors & employees. Never run 
+                                         out of working capita 
+                                   </p>
+                           
+
+                            <p class="text-bold text-white text-[8px] font-medium border bg-red-600 rounded-sm border-red-600 w-20 h-9 flex align-middle items-center justify-center ">
+                                Sign Up Now
+                            </p>
+                        </div>
+
+
+                    <div class="w-3/5 " >
+                                <img src="hero-illustration.jpg"class="w-full h-full  ">
+                    </div>
+                        
+
+            </div>
+</div>
+<div class="w-[103%] h-15 overflow-x-hidden" >
+      <img src="hero-shape.svg "class="w-full h-15 ">
+</div>
+
+
+
+</div>
+</body>
+</html>
